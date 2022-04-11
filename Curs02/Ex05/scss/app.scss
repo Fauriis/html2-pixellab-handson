@@ -15,7 +15,6 @@
     border-width: #{$i}px;
   }
 }
-// .box-0#...//
 
 @for $i from 1 through 9 {
   .box-#{$i} {

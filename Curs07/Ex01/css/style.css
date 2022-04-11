@@ -1,51 +1,98 @@
-@keyframes bar-04{
-  25%{
-background-color: red;
-width: 100%;
+@keyframes bar-01 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-01 {
+  animation: bar-01 10s ease-in;
+}
+
+@keyframes bar-02 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-02 {
+  animation: bar-02 8s linear;
+}
+
+@keyframes bar-03 {
+  25% {
+    width: 100%;
+  }
+  25% {
+    width: 75%;
+    background-color: yellow;
+  }
+  25% {
+    width: 200px;
+    background-color: red;
+  }
+  25% {
+    width: 5px;
+    background-color: blue;
+  }
+}
+
+.bar-03 {
+  animation: bar-03 12s ease-in;
+}
+
+@keyframes bar-04 {
+  25% {
+    background-color: red;
+    width: 100%;
   }
 
-  50%{
-background-color: blue;
-width:50%;
+  25% {
+    background-color: blue;
+    width: 50%;
+  }
+
+  25% {
+    background-color: black;
+  }
+
+  25% {
+    background-color: orange;
+    width: 150px;
+  }
 }
 
-75%{
-background-color: black;
-}
-
-100%{
-background-color: orange;
-width: 150px;
-}
-}
-
-.bar-04{
+.bar-04 {
   animation: bar-04 5s ease-out;
 }
 
-
 @keyframes bar-05 {
-  0%{
+  0% {
     background-color: green;
     width: 100%;
   }
 
-  33.3%{
+  33.3% {
     background-color: red;
     width: 500px;
   }
 
-  66.6%{
+  66.6% {
     background-color: green;
     width: 75%;
   }
 
-  100%{
+  100% {
     background-color: orange;
     width: 500px;
   }
 }
 
-.bar-05{
+.bar-05 {
   animation: bar-05 8s linear;
 }

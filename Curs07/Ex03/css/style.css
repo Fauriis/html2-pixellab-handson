@@ -1,9 +1,9 @@
-body{
+body {
   margin: 0;
   font-family: sans-serif;
 }
 
-body > div:first-child{
+body > div:first-child {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -16,16 +16,15 @@ body > div:first-child{
 }
 
 @keyframes blink {
-  0%{
-opacity: 1;
+  0% {
+    color: black;
   }
 
-  100%{
-opacity: 0;
+  100% {
+    color: white;
   }
 }
 
-
-body > div:first-child span{
-  animation: blink 1.0s linear infinite alternate;
+body > div:first-child span {
+  animation: blink 1s linear infinite alternate;
 }

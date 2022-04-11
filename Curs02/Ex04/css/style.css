@@ -30,4 +30,49 @@
   border-width: 5px;
 }
 
+.box-01 {
+  width: 15px;
+  height: 15px;
+}
+
+.box-02 {
+  width: 25px;
+  height: 25px;
+}
+
+.box-03 {
+  width: 35px;
+  height: 35px;
+}
+
+.box-04 {
+  width: 45px;
+  height: 45px;
+}
+
+.box-05 {
+  width: 55px;
+  height: 55px;
+}
+
+.box-11 {
+  background-color: gray;
+}
+
+.box-12 {
+  background-color: none;
+}
+
+.box-13 {
+  background-color: gray;
+}
+
+.box-14 {
+  background-color: none;
+}
+
+.box-15 {
+  background-color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
