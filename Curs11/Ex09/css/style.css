@@ -1,4 +1,7 @@
-.grid-container {
+.grid-container-01,
+.grid-container-02,
+.grid-container-03,
+.grid-container-04 {
   display: grid;
   grid-template-columns: 75px 75px 75px 75px 75px 75px;
   grid-template-rows: 75px 75px 75px 75px 75px 75px;
@@ -35,4 +38,82 @@
 
 .grid-item-5 {
   grid-column: 1 / span 2;
+}
+
+.grid-container-01 > .grid-item-1 {
+  order: 1;
+}
+
+.grid-container-01 > .grid-item-2 {
+  order: 3;
+}
+
+.grid-container-01 > .grid-item-3 {
+  order: 4;
+}
+.grid-container-01 > .grid-item-4 {
+  order: 2;
+}
+.grid-container-01 > .grid-item-5 {
+  order: 5;
+}
+
+.grid-container-02 > .grid-item-1 {
+  order: 5;
+}
+
+.grid-container-02 > .grid-item-2 {
+  order: 4;
+}
+
+.grid-container-02 > .grid-item-3 {
+  order: 2;
+}
+
+.grid-container-02 > .grid-item-4 {
+  order: 1;
+}
+
+.grid-container-02 > .grid-item-5 {
+  order: 3;
+}
+
+.grid-container-03 > .grid-item-1 {
+  order: 4;
+}
+
+.grid-container-03 > .grid-item-2 {
+  order: 3;
+}
+
+.grid-container-03 > .grid-item-3 {
+  order: 1;
+}
+
+.grid-container-03 > .grid-item-4 {
+  order: 5;
+}
+
+.grid-container-03 > .grid-item-5 {
+  order: 2;
+}
+
+.grid-container-04 > .grid-item-1 {
+  order: 1;
+}
+
+.grid-container-04 > .grid-item-2 {
+  order: 5;
+}
+
+.grid-container-04 > .grid-item-3 {
+  order: 4;
+}
+
+.grid-container-04 > .grid-item-4 {
+  order: 2;
+}
+
+.grid-container-04 > .grid-item-5 {
+  order: 3;
 }
