@@ -51,16 +51,6 @@
   grid-area: footer;
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-areas:
-      'header header header header'
-      'sidebar . content content'
-      'sidebar . content content'
-      'sidebar footer footer footer';
-  }
-}
-
 @media (max-width: 520px) {
   .grid-container {
     grid-template-areas:
@@ -68,5 +58,15 @@
       'content'
       'sidebar'
       'footer';
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      'header header header header'
+      'sidebar . content content'
+      'sidebar . content content'
+      'sidebar footer footer footer';
   }
 }

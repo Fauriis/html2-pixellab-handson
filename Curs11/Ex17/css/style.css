@@ -24,7 +24,7 @@
 }
 
 .grid-item-4 {
-  background-color: lightcoral;
   grid-column: 2 / 3;
   grid-row: 8 / 10;
+  background-color: lightcoral;
 }
