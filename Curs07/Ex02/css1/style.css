@@ -12,15 +12,15 @@ body {
   }
 
   60% {
-    transform: translate(calc(100vh - 100px), calc(-100vh - 100px));
+    transform: translate(calc(100vw - 100px), calc(-100vh - 100px));
   }
 
   80% {
-    transform: translate(calc(-100vw - 100px), calc(100vw - 100px));
+    transform: translate(0, calc(100vh - 100px));
   }
 
   100% {
-    transform: translate(calc(-100vh - 100px), 0);
+    transform: translate(0, 0);
   }
 }
 

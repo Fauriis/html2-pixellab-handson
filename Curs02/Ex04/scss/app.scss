@@ -16,15 +16,15 @@
   }
 }
 
-@for $i from 1 to 6 {
+@for $i from 1 through 5 {
   .box-0#{$i} {
-    width: #{$i}5px;
-    height: #{$i}5px;
+    width: 150px + ($i * 5px);
+    height: 150px + ($i * 5px);
   }
 }
 
 @for $i from 1 through 5 {
-  .box-1#{$i} {
+  .box-#{$i}0 {
     @if $i % 2 == 0 {
       background-color: none;
     } @else {
