@@ -11,7 +11,7 @@
     http-equiv="X-UA-Compatible"
     content="ie=edge"
   >
-  <title>Bootstrap</title>
+  <title>Ex 13</title>
 
   <link
     rel="stylesheet"
@@ -88,6 +88,24 @@
                 class="form-control"
               >
             </div>
+
+            <div class="input-group mt-4">
+              <label
+                for="author"
+                class="input-group-text"
+              >Autor*</label>
+
+              <select
+                name="author"
+                id="author"
+                class="form-select"
+                required
+              >
+                <option value="">--autor--</option>
+                <option value="">--autor1--</option>
+                <option value="">--autor2--</option>
+              </select>
+            </div>
           </div>
         </section>
       </fieldset>
@@ -111,7 +129,7 @@
         </header>
 
         <section class="row">
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 d-flex flex-column gap-2">
             <div class="input-group">
               <label
                 for="author-name"
@@ -124,6 +142,38 @@
                 id="author-name"
                 class="form-control"
                 placeholder="Nume autor*"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label
+                for="author-forename"
+                class="input-group-text"
+              >Prenume autor*</label>
+
+              <input
+                type="text"
+                name="author-forename"
+                id="author-forename"
+                class="form-control"
+                placeholder="Prenume autor*"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label
+                for="author-email"
+                class="input-group-text"
+              >Email*</label>
+
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email*"
+                name="author-email"
+                id="author-email"
                 required
               >
             </div>
@@ -177,10 +227,12 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+
+
+          <div class="col-12 col-lg-6">
             <h3>Lista de ingrediente</h3>
 
-            <ul>
+            <ul class="d-flex flex-column gap-2">
               <li>
                 10g ulei
                 <button
@@ -194,10 +246,36 @@
                   title="Sterge"
                   class="btn btn-danger btn-sm"
                 >Sterge</button>
-
               </li>
-              <li>200g ceapa</li>
-              <li>200g ardei gras</li>
+
+              <li>200g ceapa
+                <button
+                  type="button"
+                  title="Editeaza"
+                  class="btn btn-primary btn-sm"
+                >Editeaza</button>
+
+                <button
+                  type="button"
+                  title="Sterge"
+                  class="btn btn-danger btn-sm"
+                >Sterge</button>
+              </li>
+
+
+              <li>200g ardei gras
+                <button
+                  type="button"
+                  title="Editeaza"
+                  class="btn btn-primary btn-sm"
+                >Editeaza</button>
+
+                <button
+                  type="button"
+                  title="Sterge"
+                  class="btn btn-danger btn-sm"
+                >Sterge</button>
+              </li>
             </ul>
           </div>
         </section>
@@ -226,12 +304,50 @@
               >
             </div>
 
+            <div class="input-group">
+              <label
+                for="step-subtitle"
+                class="input-group-text"
+              >Subtitlu pas*</label>
+
+              <input
+                type="text"
+                class="form-control"
+                name="step-subtitle"
+                id="step-subtitle"
+                placeholder="Subtitlu pas*"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label
+                for="step-description"
+                class="input-group-text"
+              >Descriere pas*</label>
+
+              <textarea
+                name="step-description"
+                id="step-description"
+                cols="30"
+                rows="6"
+                class="form-control"
+                placeholder="Descriere pas*"
+              ></textarea>
+            </div>
+
             <div class="text-end">
               <button
                 type="button"
                 class="btn btn-outline-danger"
                 title="Reseteaza"
               >Reseteaza</button>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                title="Adauga"
+              >Adauga pas</button>
             </div>
           </div>
         </section>
